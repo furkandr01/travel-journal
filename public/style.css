@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 36px;
+    background-color: #F55A5A;
+    color: white;
+    font-size: 14.46px;
+}
+
+.nav--logo, .nav--title {
+    margin: 0;
+}
+
+.nav--title {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-family:'Inter', sans-serif;
+}
+
+.nav--logo {
+    margin-right: 7px;
+}
+
+.place {
+    display:flex;
+    margin: 50px;
+    color: #2B283A;
+}
+
+.place-image {
+    width: 125px;
+    height: 168px;
+}
+
+.place-icon {
+    width: 9px;
+}
+
+.place-stats {
+    margin-left: 20px;
+}
+
+.place-desc {
+    width: 326px;
+    height: 45px;  
+    font-family:'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 15.36px;
+    text-align: left;
+    color: #2B283A;
+}
+
+.place-date {
+    font-family:'Inter', sans-serif;
+    font-size: 10.24px;
+    font-weight:790;
+}
+
+.place-title {
+    font-size: 25px;
+    font-weight: bold;
+    font-family:'Inter', sans-serif;
+}
+
+.place-loc {
+    font-size: 10.24px;
+    letter-spacing: 1.7;
+}
+
+.place-maps {
+    font-size: 10.24px;
+    color: #918E9B;
+}
